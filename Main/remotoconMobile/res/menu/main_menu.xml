@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_manage_computers"
+          android:icon="@android:drawable/ic_menu_manage"
+          android:title="Manage Computers" />
+
+    <item android:id="@+id/menu_find_plugins"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="Find More Plugins" />
+</menu>

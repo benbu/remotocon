@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APP_DESC">Remotocon plugin that allows you to explore and edit files on your computer.</string>
+    <string name="hello">Hello World, RemotoFileManager!</string>
+    <string name="app_name">RemotoFileManager</string>
+</resources>

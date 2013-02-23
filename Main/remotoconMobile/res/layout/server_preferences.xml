@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent">
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:id="@+id/LinearLayoutName">
+		
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextViewName" 
+			android:text="Name: " 
+			android:textSize="20px" 
+			android:textStyle="bold" 
+			android:width="144px">
+		</TextView>
+		
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:inputType="textUri" 
+			android:id="@+id/EditTextName" 
+			android:gravity="fill_horizontal" android:layout_width="fill_parent">
+			
+		</EditText>
+	</LinearLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:id="@+id/LinearLayoutServerAddress">
+		
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextViewServerAddress" 
+			android:text="PC IP Address: " 
+			android:textSize="20px" 
+			android:textStyle="bold" 
+			android:width="144px">
+		</TextView>
+		
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:inputType="textUri" 
+			android:id="@+id/EditTextServerAddress" 
+			android:gravity="fill_horizontal" android:layout_width="fill_parent">
+			
+		</EditText>
+	</LinearLayout>
+		
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/LinearLayoutPort" 
+		android:orientation="horizontal">
+	
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextViewPort" 
+			android:text="Port: " 
+			android:textSize="20px" 
+			android:textStyle="bold" 
+			android:width="144px">
+		</TextView>
+		
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:id="@+id/EditTextPort" 
+			android:layout_width="fill_parent" 
+			android:inputType="number">
+			
+		</EditText>
+		
+	</LinearLayout>
+		
+	<View android:id="@+id/divider"
+    	android:background="@drawable/black_white_gradient"
+    	android:layout_width="fill_parent"
+    	android:layout_height="10dp"
+    	android:layout_below="@+id/HeaderLayout"/>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:id="@+id/LinearLayoutUserName">
+		
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextViewUserName" 
+			android:text="Username: " 
+			android:textSize="20px" 
+			android:textStyle="bold" 
+			android:width="144px">
+		</TextView>
+		
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:inputType="text" 
+			android:id="@+id/EditTextUserName">
+			
+		</EditText>
+	</LinearLayout>
+		
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/LinearLayoutPassword" 
+		android:orientation="horizontal">
+	
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextViewPassword" 
+			android:text="Password: " 
+			android:textSize="20px" 
+			android:textStyle="bold" 
+			android:width="144px">
+		</TextView>
+		
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:id="@+id/EditTextPassword" 
+			android:layout_width="fill_parent" 
+			android:inputType="textPassword">
+			
+		</EditText>
+		
+	</LinearLayout>
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayoutButtons" android:gravity="right"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ButtonSavePrefs" android:text="Save &amp; Quit"/><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ButtonCancelServerPreferences" android:text="Cancel"></Button>
+</LinearLayout>
+		
+
+</LinearLayout>

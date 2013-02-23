@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/HeaderLayout" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:id="@+id/AddClientButton" android:textColor="#888888" android:textSize="30px" android:layout_width="fill_parent" android:text="[+] Add Computer"></Button></LinearLayout><ListView android:layout_height="wrap_content" android:id="@+id/ClientManagerListView" android:layout_width="fill_parent"></ListView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.remotocon"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Remotocon"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".preferences.ServerPreferences" android:label="Add Server Configuration"></activity>
+    <activity android:name=".plugins.FileManager.FileManagerMobilePlugin" android:label="FileManager"></activity>
+<activity android:name="ClientManager"></activity>
+<activity android:name=".preferences.DebugListServerPreferences"></activity>
+<service android:name=".aidl.RemotoconService" android:exported="true" android:enabled="true">
+	<intent-filter>
+		<action android:name="com.remotocon.aidl.IRemotoconService"></action>
+	</intent-filter>
+</service>
+</application>
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

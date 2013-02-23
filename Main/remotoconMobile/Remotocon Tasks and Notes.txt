@@ -1,0 +1,15 @@
+Remotocon Tasks
+
+-Modify code so that plugins are loaded based on the selected xmlRpcClient spinner item.
+	this must happen when the program first loads, when a user is done adding a 
+	new computer, when a user changes the selected client or when they select the refresh button
+-Add a "Refresh Plugins" button.
+-Add some sort of menu when the menu button is clicked.
+	Ideas
+	-Add another computer
+	-Settings
+		-Connection timeout
+	-Search for more plugins
+	-look at other apps for more ideas
+	
+-go over application and think of what still needs/could be done
